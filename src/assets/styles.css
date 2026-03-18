@@ -127,3 +127,72 @@ body {
   font-size: 13px;
   color: #6b7280;
 }
+
+/* ===== FILTER (FIXED CLEAN STYLE) ===== */
+.filter {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.filter button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #24242b;
+  background-color: #0f0f13;
+  color: #9ca3af;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* hover — аккуратный */
+.filter button:hover {
+  color: #ffffff;
+  border-color: #3a3a45;
+}
+
+/* активные состояния (не кричащие!) */
+.filter button.active {
+  color: #ffffff;
+  border-color: #22c55e;
+}
+
+/* ===== TRANSACTIONS CLEAN ===== */
+.transaction-list {
+  margin-top: 15px;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background-color: #0f0f13;
+  border: 1px solid #1f1f25;
+  font-size: 13px;
+}
+
+/* мягкие акценты */
+.transaction-item.income {
+  border-left: 3px solid #22c55e;
+}
+
+.transaction-item.expense {
+  border-left: 3px solid #ef4444;
+}
+
+/* кнопка удаления */
+.transaction-item button {
+  background: none;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.transaction-item button:hover {
+  color: #ef4444;
+}

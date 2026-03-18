@@ -1,5 +1,10 @@
+Project Description
 
+Smart Budget Manager is a web application designed to help users track their income and expenses in an easy and structured way. The main goal of the project is to provide simple financial control and improve personal money management habits.
 
+The target audience includes students, young professionals, and anyone who wants to monitor their budget without using complex accounting tools. The application solves the problem of poor expense tracking, lack of financial awareness, and difficulty in understanding where money is spent.
+
+The MVP includes basic features such as adding income and expenses, viewing transaction history, calculating the current balance, and simple data management through a user-friendly interface.
 
 (SPA Questions)
 What is a Single Page Application (SPA)?
@@ -17,3 +22,5 @@ The Virtual DOM is a lightweight copy of the real DOM used by React. When change
 Why does React use component-based architecture?
 
 React uses component-based architecture to divide the UI into independent, reusable pieces. Each component manages its own logic and structure. This improves code organization and makes applications easier to maintain.
+
+https://github.com/diasrysbek/smart-budget-manager
